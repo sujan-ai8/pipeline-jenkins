@@ -12,7 +12,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                bat 'java Sujan'
+                bat 'java Hello'
             }
         }
 
